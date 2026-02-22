@@ -1,0 +1,7 @@
+services:
+  yazilimdev-site:
+    build: .
+    container_name: yazilimdev-site
+    restart: unless-stopped
+    ports:
+      - "8080:80"
