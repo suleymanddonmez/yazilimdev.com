@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Yazilimdev.com sosyal paylaşım görseli">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f3f1eb" />
+      <stop offset="100%" stop-color="#ece8df" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0642f" />
+      <stop offset="100%" stop-color="#0d7c69" />
+    </linearGradient>
+    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="30" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <circle cx="1020" cy="120" r="140" fill="#f0642f" fill-opacity="0.13" filter="url(#blur)" />
+  <circle cx="170" cy="500" r="160" fill="#0d7c69" fill-opacity="0.11" filter="url(#blur)" />
+  <circle cx="910" cy="470" r="120" fill="#1f57c3" fill-opacity="0.08" filter="url(#blur)" />
+
+  <rect x="62" y="58" width="1076" height="514" rx="28" fill="#ffffff" fill-opacity="0.7" stroke="#e8e1d5" />
+
+  <g transform="translate(110 120)">
+    <circle cx="10" cy="12" r="10" fill="url(#accent)" />
+    <text x="34" y="20" font-family="Space Grotesk, Arial, sans-serif" font-size="38" font-weight="700" fill="#101113">
+      yazilimdev<tspan fill="#f0642f">.com</tspan>
+    </text>
+  </g>
+
+  <text x="110" y="250" font-family="Space Grotesk, Arial, sans-serif" font-size="68" font-weight="700" fill="#101113">
+    Yazılım Geliştirme, Otomasyon
+  </text>
+  <text x="110" y="332" font-family="Space Grotesk, Arial, sans-serif" font-size="68" font-weight="700" fill="#101113">
+    ve Dijital Ürün Çözümleri
+  </text>
+
+  <text x="110" y="410" font-family="Manrope, Arial, sans-serif" font-size="30" fill="#555a63">
+    Sektör bağımsız teknoloji çözüm stüdyosu
+  </text>
+  <text x="110" y="456" font-family="Manrope, Arial, sans-serif" font-size="30" fill="#555a63">
+    Özel yazılım • MVP • İş süreçleri otomasyonu • Web platformları
+  </text>
+
+  <rect x="110" y="500" width="402" height="54" rx="27" fill="#101113" fill-opacity="0.05" stroke="#d7d0c5" />
+  <text x="138" y="535" font-family="Manrope, Arial, sans-serif" font-size="24" font-weight="700" fill="#1f57c3">
+    https://yazilimdev.com
+  </text>
+</svg>

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yazilimdev.com/sitemap.xml
+Host: yazilimdev.com

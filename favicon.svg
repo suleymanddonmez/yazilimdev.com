@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Yazilimdev.com">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f0642f" />
+      <stop offset="100%" stop-color="#0d7c69" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="#ffffff" />
+  <rect x="4" y="4" width="56" height="56" rx="15" fill="#f8f7f2" stroke="#e4ded2" />
+  <circle cx="19" cy="20" r="5" fill="url(#g)" />
+  <path d="M18 45L29 19h7l10 26h-7l-2-5h-11l-2 5h-6zm11-11h6l-3-8-3 8z" fill="#101113"/>
+</svg>
