@@ -11,6 +11,7 @@ COPY sitemap.xml /usr/share/nginx/html/
 COPY site.webmanifest /usr/share/nginx/html/
 COPY favicon.svg /usr/share/nginx/html/
 COPY og-image.svg /usr/share/nginx/html/
+COPY assets /usr/share/nginx/html/assets
 COPY ozel-yazilim-gelistirme.html /usr/share/nginx/html/
 COPY is-sureci-otomasyonu.html /usr/share/nginx/html/
 COPY mvp-gelistirme.html /usr/share/nginx/html/
