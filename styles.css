@@ -13,6 +13,7 @@
   --shadow-soft: 0 10px 30px rgba(20, 24, 33, 0.05);
   --radius: 24px;
   --max: 1160px;
+  --anchor-offset: 2.25rem;
 }
 
 * {
@@ -21,7 +22,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 2rem;
+  scroll-padding-top: var(--anchor-offset);
 }
 
 body {
@@ -67,7 +68,7 @@ a {
 }
 
 [id] {
-  scroll-margin-top: 2rem;
+  scroll-margin-top: var(--anchor-offset);
 }
 
 .site-header {
@@ -919,6 +920,10 @@ h1 span {
 }
 
 @media (max-width: 680px) {
+  :root {
+    --anchor-offset: 5.5rem;
+  }
+
   .site-header {
     align-items: flex-start;
     flex-direction: column;
