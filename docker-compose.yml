@@ -4,4 +4,4 @@ services:
     container_name: yazilimdev-site
     restart: unless-stopped
     ports:
-      - "8080:80"
+      - "8081:80"

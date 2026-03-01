@@ -16,3 +16,7 @@ COPY ozel-yazilim-gelistirme.html /usr/share/nginx/html/
 COPY is-sureci-otomasyonu.html /usr/share/nginx/html/
 COPY mvp-gelistirme.html /usr/share/nginx/html/
 COPY web-platform-gelistirme.html /usr/share/nginx/html/
+
+COPY nginx/default.conf /etc/nginx/conf.d/default.conf
+
+EXPOSE 80
